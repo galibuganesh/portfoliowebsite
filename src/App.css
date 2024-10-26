@@ -1,0 +1,81 @@
+/* src/App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header Styling */
+  .header {
+    background-color: #007acc;
+    width: 100%;
+    padding: 1em 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    padding-left: 1em;
+  }
+  
+  .header nav a {
+    margin: 0 1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header nav a:hover {
+    color: #ffdd57;
+  }
+  
+  /* Main Content Styling */
+  .main-content {
+    width: 80%;
+    max-width: 1000px;
+    padding: 2em 0;
+  }
+  
+  /* Section Styling */
+  .section {
+    margin: 3em 0;
+    text-align: center;
+  }
+  
+  .section h2 {
+    color: #007acc;
+  }
+  
+  .project {
+    margin: 1.5em 0;
+    padding: 1em;
+    background-color: #e3f2fd;
+    border-radius: 8px;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  
